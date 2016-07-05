@@ -1,0 +1,395 @@
+.maingSec {
+  background: url("../images/main_bg.png");
+  min-height: 805px;
+}
+
+.maingSec .mainLogo {
+  margin-top: 10px;
+  position: fixed;
+}
+
+.maingSec .mainLogo a {
+  color: #FF788D;
+}
+
+.maingSec .infoLinks {
+  text-align: right;
+}
+
+.maingSec .infoLinks a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.maingSec .infoLinks h2 {
+  font-size: 20px;
+}
+
+.maingSec .mainInfo {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.maingSec .mainInfo .infoTitle h1 {
+  color: #ffffff;
+  font-family: "Nexa Light";
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.maingSec .mainInfo .infoSubtitle p {
+  color: #ffffff;
+  font-size: 65px;
+  font-family: "Avenir Next";
+  margin-bottom: 100px;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+.maingSec .infoBtn a {
+  font-family: "Avenir Next";
+  padding: 20px 40px;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #FF788D;
+  border: 1px solid #FF788D;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  /*position: fixed;*/
+}
+
+/*===============================Segunda seccion con informacion=================*/
+
+.exampleSec {
+  background: url("../images/2main_bg.png");
+  min-height: 800px;
+}
+
+.exampleSec .leftPart {
+  min-height: 800px;
+}
+
+.exampleSec .leftPart h1 {
+  color: #FF788D;
+  font-family: "Nexa Light";
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+
+.exampleSec .leftPart p {
+  color: #222222;
+  font-size: 22px;
+  font-family: "Avenir Next";
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.exampleSec .leftPart a {
+  color: #FF788D;
+  font-size: 18px;
+  font-family: "Avenir Next";
+}
+
+.exampleSec .rightPart {
+  /*background-color: green;*/
+  min-height: 800px;
+}
+
+/*.exampleSec .rightPart:hover {
+  background-color: black;
+}*/
+
+/*=-================================feature1 section====================================*/
+
+.feature1 {
+  background: url("../images/3main_bg.png");
+  min-height: 800px;
+}
+
+.feature1 .featureRightPart {
+  text-align: right;
+}
+
+.feature1 .featureRightPart h1 {
+  color: #FF788D;
+  font-family: "Nexa Light";
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+
+.feature1 .featureRightPart p {
+  color: #222222;
+  font-size: 22px;
+  font-family: "Avenir Next";
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.feature1 .featureRightPart a {
+  color: #FF788D;
+  font-size: 18px;
+  font-family: "Avenir Next";
+}
+
+/*=-================================feature2 section====================================*/
+
+.feature2 {
+  background: url("../images/4main_bg.png");
+  min-height: 800px;
+}
+
+
+.feature2 .feature2LeftPart h1 {
+  color: #FF788D;
+  font-family: "Nexa Light";
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+
+.feature2 .feature2LeftPart p {
+  color: #222222;
+  font-size: 22px;
+  font-family: "Avenir Next";
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.feature2 .feature2LeftPart a {
+  color: #FF788D;
+  font-size: 18px;
+  font-family: "Avenir Next";
+}
+
+/*============================call 2 action section=======================*/
+.call2action {
+  background: url("../images/6main_bg.png") fixed;
+  min-height: 700px;
+  text-align: center;
+}
+
+.call2action .callTitle {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.call2action .callTitle h1 {
+  color: #ffffff;
+  font-family: "Nexa Light";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.call2action .infoHolder {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.call2action .infoHolder .infoHolderHeader {
+  background-color: #FF788D;
+  border: 1px solid #FF788D;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.call2action .infoHolder .infoHolderHeader h1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Avenir Next"
+}
+
+.call2action .infoHolder .infoHolderContent {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.call2action .infoHolder .infoHolderContent ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e7e7e7;
+  color: #222222;
+  font-family: "Avenir Next";
+  font-size: 15px;
+}
+
+.call2action .infoHolder .infoHolderContent ul li:last-child {
+border-bottom: none;
+}
+
+/*==================================== pricing section ==========================================*/
+.pricing {
+  background-color: #ffffff;
+  /*background: url("../images/5main_bg.png") fixed;*/
+  min-height: 805px;
+  text-align: center;
+}
+
+.pricing .priceTitle h1 {
+  color: #FF788D;
+  font-family: "Nexa Light";
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.pricing .priceContainer {
+  margin-bottom: 50px;
+}
+
+.pricing .priceContainer .price1 {
+  background-color: #FF788D;
+  margin-top: 60px;
+  box-shadow: 10px 10px 5px #E2E2E2;
+}
+.pricing .priceContainer .price2 {
+  background-color: #1CCFB4;
+  margin-top: -30px;
+  box-shadow: 10px 10px 5px #E2E2E2;
+}
+.pricing .priceContainer .price3 {
+  background-color: #4E8ED8;
+  margin-top: 30px;
+  box-shadow: 10px 10px 5px #E2E2E2;
+}
+.pricing .priceContainer .price4 {
+  background-color: #AF7CB7;
+  margin-top: 65px;
+  box-shadow: 10px 10px 5px #E2E2E2;
+}
+
+.pricing .priceContainer .price1 .priceFeatureTitle h1{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Avenir Next";
+}
+
+.pricing .priceContainer .price1 .priceFeatures ul li{
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Avenir Next";
+  padding: 15px 0;
+}
+
+.pricing .priceContainer .price1 .pricePrecio h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Avenir Next";
+  border-top: 1px solid #f7f7f7;
+  padding-top: 15px;
+}
+
+.pricing .priceContainer .price2 .priceFeatureTitle h1{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Avenir Next";
+}
+
+.pricing .priceContainer .price2 .priceFeatures ul li{
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Avenir Next";
+  padding: 15px 0;
+}
+
+.pricing .priceContainer .price2 .pricePrecio h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Avenir Next";
+  border-top: 1px solid #f7f7f7;
+  padding-top: 15px;
+}
+
+.pricing .priceContainer .price3 .priceFeatureTitle h1{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Avenir Next";
+}
+
+.pricing .priceContainer .price3 .priceFeatures ul li{
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Avenir Next";
+  padding: 15px 0;
+}
+
+.pricing .priceContainer .price3 .pricePrecio h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Avenir Next";
+  border-top: 1px solid #f7f7f7;
+  padding-top: 15px;
+}
+
+.pricing .priceContainer .price4 .priceFeatureTitle h1{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Avenir Next";
+}
+
+.pricing .priceContainer .price4 .priceFeatures ul li{
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Avenir Next";
+  padding: 15px 0;
+}
+
+.pricing .priceContainer .price4 .pricePrecio a {
+  text-decoration: none;
+}
+
+.pricing .priceContainer .price4 .pricePrecio h1 {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Avenir Next";
+  border-top: 1px solid #f7f7f7;
+  padding-top: 15px;
+}
+
+.pricing .textPrice p {
+  color: #FF788D;
+  font-size: 25px;
+  font-family: "Avenir Next";
+}
+
+/*===================================== leyenda section ==================================*/
+.leyenda {
+  background: url("../images/5main_bg.png") center;
+  min-height: 750px;
+  text-align: center;
+}
+
+.leyenda .quotesImg img {
+  height: 75px ;
+  width: 75px;
+  text-align: center;
+  margin-top: 290px;
+}
+
+.leyenda .leyendaTitle {
+  /*margin-top: 350px;*/
+}
+
+.leyenda .leyendaTitle h1 {
+font-size: 33px;
+color: #ffffff;
+font-family: "Avenir Next";
+font-style: italic;
+margin-bottom: 15px;
+}
+
+.leyenda .leyendaTitle p {
+font-size: 25px;
+color: #ffffff;
+font-family: "Avenir Next";
+font-style: italic;
+}
